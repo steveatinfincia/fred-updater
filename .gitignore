@@ -1,0 +1,19 @@
+# tuf 
+keys
+tuf.log
+
+# node files
+targets
+
+# files that show up during testing
+client/bin
+client/lib
+client/plugins
+client/**/*.jar
+client/run.sh
+client/seednodes.fref
+client/updater-tmp
+
+# never want to commit staging repo data
+metadata.staged
+
