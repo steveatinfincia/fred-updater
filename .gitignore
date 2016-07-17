@@ -13,6 +13,7 @@ manage_env
 # pyinstaller
 *.spec
 dist
+build
 
 # files that show up during testing
 client/bin
