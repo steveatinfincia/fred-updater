@@ -5,6 +5,15 @@ tuf.log
 # node files
 targets
 
+# python environments
+installer_env
+client_env
+manage_env
+
+# pyinstaller
+*.spec
+dist
+
 # files that show up during testing
 client/bin
 client/lib
