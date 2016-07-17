@@ -48,4 +48,11 @@ And a directory for installers that may be distributed as updates:
 
 #### Distribution of client updater
 
-This is an open question, PyInstaller perhaps?
+##### Linux or macOS
+
+Run the `build.sh` script from the root of the repository directory:
+
+	./build.sh
+
+On a 64-bit Linux machine, the build script will generate a binary at `dist/update-linux-64`, 
+suitable for distribution.
